@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template </title>
+
+<style>
+/* *{margin: 0;padding:0;} */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),;
+        background-image:  url(snapchatback.jpeg);
+        background-size: cover;
+        background-position: center; }
+        .navbar{
+            width: 85%;
+            margin: auto;
+            padding: 35px,0;
+            display: flex;
+            align-items: center;
+            right: 40px;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;}
+            .navbar ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            .navbar ul li::after{
+                content: '';
+                height: 3px;
+                width: 0;
+                background: #ff4271;
+                position: absolute;
+                left: 0;
+                bottom: -8px;
+                transition: 0.5s;
+            }
+          .navbar ul li:hover::after{
+              width: 100%;
+          }
+          .content{
+              width: 100%;
+              position: absolute;
+              color: white;
+              /* transform: translateY(-50%); */
+              text-align: center;
+            }
+            .content h1{
+                font-size: 70px;
+                margin-top: 80px;
+
+            }
+            .content p{
+                margin: 20px auto;
+                font-weight: 100;
+                line-height: 25px;
+            }
+
+
+
+ </style>
+    </head>
+<body>
+<div class="banner">
+    <div class="navbar">
+    <ul>
+        <li><a href="#hame">HOME</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#gallary">GALLARY</a></li>
+    </ul>
+    </div>
+    <div class="content">
+        <h1> DESIGN YOUR HOUSE</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cumque ea voluptates nisi. Distinctio, omnis <br> facilis perspiciatis, minima quibusdam.Distinctio, omnis facilis perspiciatis, minima quibusdam.Distinctio, <br> omnis facilis perspiciatis, minima quibusdam.Distinctio, omnis facilis perspiciatis, minima quibusdam.</P>
+    </div>
+
+</div>
+   
+    
+
+
+
+</body>
+</html>
